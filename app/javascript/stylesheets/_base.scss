@@ -1,0 +1,10 @@
+body{
+    background-color: gray;
+    
+}
+.project-card{
+    transition: backgroung-color 0.5s ease;
+    &:hover{
+        background-color: lightslategray;
+    }
+}
